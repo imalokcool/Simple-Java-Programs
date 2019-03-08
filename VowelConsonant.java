@@ -6,12 +6,19 @@ class VowelConsonant
     public static void main(String[] args)
     {
 
-        char ch = 'i';
-
-        if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' )
-            System.out.println(ch + " is vowel");
+        char ch;
+        Scanner scan = new Scanner(System.in);
+        ch = scan.next().charAt(0);
+		
+        if(ch=='a' || ch=='A' || ch=='e' || ch=='E' ||
+        ch=='i' || ch=='I' || ch=='o' || ch=='O' ||
+        ch=='u' || ch=='U')
+        {
+            System.out.print("Vowel");
+        }
         else
-            System.out.println(ch + " is consonant");
-
+        {
+            System.out.print("Consonant");
+        }
     }
 }
