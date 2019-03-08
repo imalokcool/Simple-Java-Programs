@@ -12,7 +12,7 @@ class MainPositive
       {
       System.out.println("positive");
       }
-    else(a<0)
+    else if(a<0)
       {
       System.out.println("negative");
       }
