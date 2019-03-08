@@ -9,7 +9,8 @@ class hello
 		a = s.nextInt();
 		for(int i=0;i<a;i++)
 		{
-			System.out.println("HELLO");
+			System.out.println("Hello");
 		}
+		System.out.println();
 }
 }
