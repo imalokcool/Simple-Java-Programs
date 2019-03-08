@@ -1,22 +1,24 @@
-import java.util.Scanner;
 import java.io.*;
-class posneg
+import java.util.*;
+class MainPositive
 {
-  public static void main (String args[]) throws IOException
+  public static void main(String args[])
   {
-   
-      Scanner s = new Scanner (System.in);
-      int n = s.nextInt();
-      if(n>0)
-        {
-          System.out.println("Positive");
-        }
-      else if (n<0)
+    int a;
+    Scanner sc=new Scanner(System.in);
+    System.out.println("enter number");
+    a=sc.nextInt();
+    if(a>0)
       {
-        System.out.println("Negative");
-       }
-     else if (n==0)
+      System.out.println("positive");
+      }
+    else(a<0)
+      {
+      System.out.println("negative");
+      }
+     else if(a==0)
      {
       System.out.println("Zero");
      }
- }
+  }
+}
