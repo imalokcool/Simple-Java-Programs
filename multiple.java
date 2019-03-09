@@ -12,7 +12,7 @@ class factorial
         for(int i=1;i<=5;i++)
         {
         	sum  = n * i;
-        	System.out.println(sum);
+        	System.out.print(sum + " ");
         }
         
     }
