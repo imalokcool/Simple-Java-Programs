@@ -27,7 +27,7 @@ class Armstrong {
             }
 
             if (result == number)
-                System.out.print(number + " ");
+                System.out.print(number);
         }
     }
 }
