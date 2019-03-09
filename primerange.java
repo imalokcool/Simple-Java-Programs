@@ -8,7 +8,7 @@ class primerange
         Scanner scan = new Scanner(System.in);
         start = scan.nextInt();
         end = scan.nextInt();
-        for(i=start; i<=end; i++)
+        for(i=start+1; i<=end; i++)
         {
             count = 0;
             for(j=2; j<i; j++)
