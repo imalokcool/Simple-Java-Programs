@@ -17,7 +17,7 @@ class timediff
 		time2=hr2*60+min2;
 		if(time1>time2)
 		{
-			diff=time1=time2;
+			diff=time1-time2;
 		}
 		else
 		{
